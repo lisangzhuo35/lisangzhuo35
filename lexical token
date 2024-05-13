@@ -1,0 +1,9 @@
+>>> introduction_doc = nlp(
+...     "This tutorial is about Natural Language Processing in spaCy."
+... )
+>>> type(introduction_doc)
+spacy.tokens.doc.Doc
+
+>>> [token.text for token in introduction_doc]
+['This', 'tutorial', 'is', 'about', 'Natural', 'Language',
+'Processing', 'in', 'spaCy', '.']
