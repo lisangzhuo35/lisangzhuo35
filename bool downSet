@@ -1,0 +1,19 @@
+{
+public:
+	int score;//
+	int _id;//
+	int top;//
+	int speed;//
+
+	Game();
+	void showMenu();//
+	void showGround();//
+	void gameOver();//
+	void Run();//
+	void sharpDraw(int id, bool show = false);//
+	void keyControl();//
+	bool move(int dir, int id);//
+	bool downSet(int id);//
+	void Turn(int id);//
+	void clean();//
+};
