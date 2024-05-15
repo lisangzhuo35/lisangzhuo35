@@ -1,0 +1,12 @@
+						}
+					}
+					
+ 
+				}
+				else if((P->y - p_AP2->y) < ah && (P->y - p_AP2->y) >= 0 && (P->x - p_AP2->x) < aw - 3 && (P->x - p_AP2->x) >= -7)
+				{
+					P->y = APStart -100;
+					P = P->pnext;
+					p_AP2->y = APStart;
+					kill++;
+ 
