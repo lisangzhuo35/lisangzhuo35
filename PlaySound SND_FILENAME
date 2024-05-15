@@ -1,0 +1,8 @@
+					PlaySound(L"Bomb.wav", NULL, SND_FILENAME | SND_ASYNC);
+					while (1)
+					{
+						mid = rand() % (WIDTH - aw) + (WINDOW_WIDTH / 2 - WIDTH / 2);
+						if (abs(mid - p_AP->x) > aw)
+						{
+							p_AP->x = mid;
+							break;
