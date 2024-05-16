@@ -1,0 +1,9 @@
+template <class T1,class T2>
+T1 raw_input2(T2 tips)
+{
+    T1 a;
+    cout<<tips;
+    cin>>a;
+    return a;
+}
+
