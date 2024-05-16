@@ -1,0 +1,12 @@
+print raw_input("Input a number : ")
+
+int raw_input(const char* tips)
+{
+    cout<<tips;
+    int a;
+    cin>>a;
+    return a;
+}
+
+cout<<raw_input("Input number : ")<<endl;
+
