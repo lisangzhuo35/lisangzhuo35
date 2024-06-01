@@ -1,0 +1,12 @@
+void Fly()
+{
+     static int speed=0;
+     if(speed<10) speed++;
+     if(speed==10)   
+     {
+         if(e_y<h)   e_y++;
+         else { e_y=0;e_x=2+rand()%w-2;}
+        speed=0;
+     }
+}
+void
