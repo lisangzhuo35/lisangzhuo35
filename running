@@ -1,0 +1,10 @@
+// INCLUDE <stdbool.h>!
+bool running = true;
+ 
+int main() {
+  while (running) {
+    int x = fetch();
+    if (x == HLT) running = false;
+    ip++;
+  }
+}
